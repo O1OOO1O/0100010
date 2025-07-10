@@ -1,5 +1,90 @@
 <!DOCTYPE html>
-<html>
-<body style="background-color:black;">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>0100010 Industries</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="logo-container">
+        <img src="img/small_logo.png" alt="0100010 Industries Logo" class="logo">
+        <span class="company-name">0100010 Industries</span>
+      </div>
+      <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#technologies">Technologies</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section home">
+      <img src="img/large_logo.png" alt="Large 0100010 Industries Logo" class="large-logo">
+      <p class="description">Welcome to 0100010 Industries, an independent game studio. We create engaging and immersive games for PC, android and iOS.</p>
+    </section>
+
+    <section id="games" class="section games">
+      <h2>Our Games</h2>
+      <div class="game-grid">
+        <div class="game-cell">
+          <a href="https://www.cookieflipper.com"><img src="img/cookie_flipper_logo.png" alt="Game Screenshot" class="screenshot"></a>
+          <p>Tired of Match 3? Try Cookie Flipper, a nostalgic, casual, puzzle game with a delicious twist!</p>
+          <div class="icons">
+            <a href="#" class="tooltip" data-tooltip="Coming soon"><img src="img/steam_link_coming_soon.png" alt="Steam" class="icon"></a>
+            <a href="#" class="tooltip" data-tooltip="Coming soon"><img src="img/google_link_coming_soon.png" alt="Google Play" class="icon"></a>
+            <a href="#" class="tooltip" data-tooltip="Coming soon"><img src="img/apple_link_coming_soon.png" alt="App Store" class="icon"></a>
+          </div>
+        </div>
+        <div class="game-cell coming-soon">
+          <p>More games coming soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="technologies" class="section technologies">
+      <h2>Technologies</h2>
+      <div class="tech-grid">
+        <div class="tech-cell"><img src="img/unity_logo.png" alt="Unity"></div>
+        <div class="tech-cell"><img src="img/steam_logo.png" alt="Steam"></div>
+        <div class="tech-cell"><img src="img/apple_logo.png" alt="Apple"></div>
+        <div class="tech-cell"><img src="img/android_logo.png" alt="Android"></div>
+        <div class="tech-cell"><img src="img/aws_logo.png" alt="AWS"></div>
+      </div>
+    </section>
+
+    <section id="careers" class="section careers">
+      <h2>Careers</h2>
+      <p>There are no positions available at this time.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 style="text-align: center;">Contact</h2>
+      <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+        We are an independent game studio headquartered in Texas. We specialize in making great games with the Unity game engine for PC and mobile platforms via Steam, Android, and Apple/IOS. Please feel free to reach out to us at <a href="mailto:info@0100010.com">info@0100010.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="bottom-bar">
+      <span class="footer-left">© 2025 0100010 Industries LLC, All Rights Reserved.</span>
+      <div class="footer-right">
+        <a href="https://bsky.app/profile/0100010-industries.bsky.social"><img src="img/bluesky_icon.png" alt="Blue Sky"></a>
+		<a href="https://x.com/0100010_Inds"><img src="img/x_icon.png" alt="X"></a>
+        <a href="https://www.youtube.com/@OIOOOIO_Industries"><img src="img/youtube_icon.png" alt="YouTube"></a>
+        <a href="https://www.tiktok.com/@0100010_industries"><img src="img/tiktok_icon.png" alt="TikTok"></a>
+        <a href="https://www.instagram.com/0100010_industries/"><img src="img/instagram_icon.png" alt="Instagram"></a>
+        <a href="#"><img src="img/linkedin_icon.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
